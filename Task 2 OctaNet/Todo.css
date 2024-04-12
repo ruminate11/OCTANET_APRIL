@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+   background-color: rgb(4, 29, 29);
+   font-family: 'Poppins', sans-serif;
+   background-image: url('bg2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   overflow: hidden;
+   margin: 0; 
+   padding: 0; 
+   background-position: center;
+}
+.nav-logo p{
+   color: white;
+   font-size: 30px;
+   font-weight: 600;
+   transform: translate(20px,5px);
+   text-shadow: #343333;
+}
+
+
+.container {
+   width: 360px;
+   padding: 33px;
+   text-align: center;
+   background-color: #fff;
+   margin-left: 33%;
+   margin-top: 5px;
+   background: transparent;
+   background: transparent;
+   border: 1px solid rgb(255, 255, 255);
+   backdrop-filter: blur(9px);
+   color: #fff;
+   border-radius: 12px;
+   padding: 30px 40px;
+}
+
+input {
+   width: 270px;
+   padding: 8px;
+   border: 1px solid rgb(255, 255, 255);
+   outline: none;
+   font-size: 19px;
+   border-radius: 15px;
+   background: transparent;
+   color: #fff;
+   padding: 10px 10px 10px 10px;
+}
+
+input::placeholder {
+   color: rgb(255, 255, 255); 
+}
+
+button {
+   width: 60px;
+   height: 41px;
+   background-color: rgb(13, 104, 150);
+   color: white;
+   border: none;
+   cursor: pointer;
+   outline: none;
+   border-radius: 12px;
+   font-size: 19px;
+   background: transparent;
+}
+
+.text ul {
+   position: relative;
+   background-color: rgba(206, 206, 212, 0.872);
+   color: white;
+   font-size: 19px;
+   padding: 7px;
+   text-align: left;
+   border-radius: 15px;
+   background: transparent;
+}
+
+.text ul i {
+   position: absolute;
+   right: 10px;
+   cursor: pointer;
+}
